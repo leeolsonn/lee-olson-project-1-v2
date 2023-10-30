@@ -1,0 +1,235 @@
+/* comment */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+}
+/*end of reset*/
+.top-nav {
+    width: 650px;
+    font-size: 25px; 
+    padding: 0px 0px 0px 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-nav {
+    padding: 0px 30px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+header {
+    max-width: 1200px;
+    padding: 12px 12px 30px 12px;
+}
+
+
+
+.header-new-pages {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-family: "prestige-elite-std", monospace;
+    width: 100%;
+    height: 126px;
+    background-color: black;
+    color: white;
+}
+
+.a-footer {
+    color: white;
+}
+
+main {
+    text-align: center;
+    position:relative; /*this is needed for h1 */
+}
+
+main h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+
+}
+
+
+main img {
+    width: 100%;
+    padding: 0px 0px 30px 0px;
+}
+
+footer img {
+    padding: 10px 0px 0px 30px;
+}
+
+footer h2 {
+    padding: 10px 0px 0px 30px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0px auto;
+    border: 1px soild red;
+}
+
+article {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+    border:10px solid black;
+    margin:10px auto 10px auto;
+    padding: 60px 50px 60px 50px;
+    max-width: 600px;
+    background-color:rgb(228, 228, 228);
+    border-radius: 48px;
+}
+
+article img {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    border-radius: 24px; 
+}
+
+article h3 {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+section img {
+    height: 700px;
+    width: 550px;
+    display: flex; 
+    justify-content: flex-start;
+}
+
+section h2 {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    text-align: left;
+    padding: 0px 0px 10px 10px;
+}
+
+section p {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+    display: flex; 
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.contact-image {
+    background-image: url(img/perks-club-text-image-01.png);
+    width: 800px;
+    height: 390px;
+    border: 1px soild red;
+    margin: 0px auto 20px auto;
+}
+
+.form {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    width:306px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+
+}
+
+.form p {
+    margin-top:7px;
+}
+
+.box {
+    border: 1px solid black;
+    width:250px;
+    height:30px;
+    margin-left:8px;
+    margin-bottom:12px;
+}
+
+.button {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    width: 150px;
+    margin: 0px auto 20px auto;
+    padding: 12px 0px 12px 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.card { 
+    display: flex;
+    margin-left: 20px;
+}
+
+.card-text {
+    display: flex; 
+    flex-direction: column;
+    margin-left: 35px;
+    margin-top: 150px;
+}
+
+.h2-reviews {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0px 0px 50px 0px;
+
+}
+
+
+
+
+
+/*
+Prestige Elite Std Regular
+font-family: "prestige-elite-std", monospace;
+font-weight: 400;
+font-style: normal;
+Prestige Elite Std Slanted
+font-family: "prestige-elite-std", monospace;
+font-weight: 400;
+font-style: italic;
+Prestige Elite Std Bold
+font-family: "prestige-elite-std", monospace;
+font-weight: 700;
+font-style: normal;
+Prestige Elite Std Bold Slanted
+font-family: "prestige-elite-std", monospace;
+font-weight: 700;
+font-style: italic;
+*/
